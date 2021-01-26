@@ -48,8 +48,25 @@ const validator = {
         return false;
       } 
 
+      
+
   },
   //Logaritmo de Luhn y luego el maskifi 
+
+
+  maskify: function (tarjeta) { 
+    if (tarjeta.length < 4) {
+      return tarjeta;
+    }
+    const ultimos4Caracteres = tarjeta.substr(-4); 
+    const ocultarCaracteres = tarjeta.substr(0, tarjeta.length -4).replace(/\d/g, '#');
+
+    console.log(`${ocultarCaracteres}${ultimos4Caracteres}`);
+    return `${ocultarCaracteres}${ultimos4Caracteres}`;
+    
+    
+  },
 };
 
 export default validator;
+//export default maskifi; 

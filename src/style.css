@@ -1,13 +1,13 @@
 header{
     width: 100%;
     overflow: hidden;
-    background-color: turquoise;
+    background-color: skyblue;
     margin-bottom:8px;
 
 }
 header .logo {
     color: #666;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 100px;
     float: left;
 }
@@ -15,6 +15,7 @@ header .logo {
 header nav { 
     float: right;
     line-height: 100px;
+   
 
 }
 body {
@@ -57,7 +58,7 @@ img {
 
 .wrapper {
     width: 90%; ;
-    max-width: 1000px;
+    max-width: 1300px;
     margin:auto;
     overflow:hidden;   
 }
@@ -74,13 +75,27 @@ img {
     height: 300px;
     padding: 30px;
     border: 1px solid skyblue;
-    background: white;
-    border-radius: 15px;
-    
-
+    background: url(imagenes/abstract-pastel-background-vector.jpeg);
+    border-radius:15px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 h3 { 
     font-size: medium; margin-left:20px ;
+}
+
+#validar {
+    background-color: #28b766;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
 
 
     
