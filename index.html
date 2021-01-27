@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Finaliza tu compra</title>
+    <!--Al finalizar debo de intentarlo cambiando la imagen en 16x16 (favicon.png)-->
+    <!--<link rel="shortcut icon" type="image/png" href="imagenes/favicon.png"/>-->
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+      <div class="logo"><img src="imagenes/LOGO1920X1080.ico" width="100" height="100"/> Dukidog </div>
+      <nav>
+        <a href="https://www.dukidog.com">Home</a>
+        <a href="https://dukidog.com/categoria/perros/alimento-para-perros/alimento-seco-para-perros/">Categorías</a>
+        <a href="https://dukidog.com/blog/">Blog</a>
+      </nav>
+    </div>
+    </header>
+
+
+    <!--<h2>   Dukidog   <img src="imagenes/check.png" alt="Imagen de check" title="Check Dukidog" width="26" height="26"> </h2>-->
+    
+      <h3>   Ingresa tus datos para validar tu tarjeta   </h3>
+    
+    
+    <div class="caja">
+      <h3>
+      <form >
+      Número de tarjeta <br />
+      <input type="text" id="tarjeta" placeholder="Ej. 4137894711755904" maxlength="16">
+    </form>
+    <br />
+    <form>
+      Nombre de usuario <br />
+      <input type="text" id="nombre" placeholder="Ej. Cristina Rodriguez Laureano">
+    </form>
+    <br />
+    <form>
+      Expira <br />
+      <input type="date" id="fecha" placeholder="Ej. 12/02/2022" maxlength="10">
+    </form>
+    <br />
+    <form>
+      CVV <br />
+      <input type="text" id="código" placeholder="Ej. 123" maxlength="3">
+    </form></h3>
+    <br />
+    
+    <input type="button" id="validar" value="Validar Datos">
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+    <main></main>
+    <footer>
+     Protección de Datos Dukidog Corporation ®
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
