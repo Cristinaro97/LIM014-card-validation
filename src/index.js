@@ -7,14 +7,14 @@ validar.addEventListener("click",()=>{
     let validador = validator.isValid(tarjeta);
     let stringOculto = validator.maskify(tarjeta);  
      
-console.log(validar)
+
     if (validador == true ){
     
         alert("Tu tarjeta " +stringOculto+ " es válida");
     } else {
         alert("Tu tarjeta  " +stringOculto+ " es inválida");
     }
-    console.log(validator.isValid(tarjeta));}); 
+    }); 
 
 //Validar datos 
 //getelementbyid para los datos
